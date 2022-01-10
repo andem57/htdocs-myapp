@@ -1,0 +1,10 @@
+.test-list > ul{display:none;}
+.test-list.active > ul{display:block;}
+td {border:2px solid grey;}
+input:invalid {
+	border-color: red;
+}
+input,
+input:valid {
+	border-color: #ccc;
+}
